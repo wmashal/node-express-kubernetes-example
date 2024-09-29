@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: node-express-kubernetes-example-application
-        image: registry.digitalocean.com/juffalow/node-express-kubernetes-example:latest
+        image: wmashal/node-express-kubernetes-example:latest
         imagePullPolicy: Always
         ports:
           # port number where the application is listening
